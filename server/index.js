@@ -24,7 +24,7 @@ app.use(helmet())
 app.use(helmet.crossOriginResourcePolicy({ policy: 'cross-origin' }))
 app.use(bodyParser.json({ limit: '30mb', extended: true }))
 app.use(bodyParser.urlencoded({ limit: '30mb', extended: true }))
-app.use(cors({ credentials: true, origin: 'http://localhost:5173' }))
+app.use(cors({ credentials: true, origin: 'http: process.env.CLIENT }))
 
 app.use('/assets', express.static(path.join(__dirname, 'public/assets')))
 
