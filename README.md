@@ -1,7 +1,7 @@
-Backend:
-npm install
-enter variables in .env, look at envSample
+Backend:<br/>
+npm install <br/>
+Enter variables in .env, look at envSample<br/>
 
-Frontend:
-npm install
+Frontend:<br/>
+npm install<br/>
 In src/app/constants/API enter your api server address.
